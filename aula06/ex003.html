@@ -6,19 +6,20 @@
     <title>Meu primeiro programa</title>
     <style>
         body {
-            background-color: rgb(241, 232, 219);
+            background-color: rgb(241, 232, 219); /*Comentário em CSS*/
             color: rgb(3, 3, 3);
             font: normal 20pt arial;
         }
     </style>
 </head>
 <body>
-    <h1>Olá mundo!</h1>
+    <h1>Olá mundo!</h1> <!--Comentário em HTML-->
     <p>Ja me livrei da maldição</p>
     <script>
-        window.alert('Minha primeira mensagem!')
-        window.confirm('Está gostando de JavaScript') 
-        window.prompt('Qual é seu nome') //Vai perguntar seu
+        var n1 = Number(window.prompt("DIgite um número: "))
+        var n2 = Number(window.prompt("Digite outro número: "))
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
     </script>
 </body>
 </html>
